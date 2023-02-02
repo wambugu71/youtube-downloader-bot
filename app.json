@@ -1,1 +1,5 @@
-{"telegramToken": "Bot Token id"}
+
+"telegramToken": {
+      "description": "Telegram token",
+      "value": "123456789:ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    }
