@@ -3,7 +3,6 @@ import telebot
 import requests
 import os
 import json, youtube_dl
-#TELEGRAM_TOKEN= 5686577136:AAF8NGC6p-Jqw17XWCL4Z-7DW9WafzsVHzY
 #Config vars
 #token = os.environ['TELEGRAM_TOKEN']
 #token = os.environ['5686577136:AAF8NGC6p-Jqw17XWCL4Z-7DW9WafzsVHzY']
