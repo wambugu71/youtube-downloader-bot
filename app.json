@@ -3,7 +3,7 @@
   "description": "Telegram Bot to download music and videos from YouTube",
   "repository": "https://github.com/wambugu71/youtube-downloader-bot/",
   "env": {
-    "telegramToken": {
+    "TELEGRAM_TOKEN": {
       "description": "Telegram token",
       "value": "123456789:ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     },
