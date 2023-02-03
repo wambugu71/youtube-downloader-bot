@@ -1,3 +1,16 @@
 {
-    "telegramToken": "bot api token"
+  "name": "Telegram yt",
+  "description": "Telegram Bot to download music and videos from YouTube",
+  "repository": "https://github.com/wambugu71/youtube-downloader-bot/",
+  "env": {
+    "telegramToken": {
+      "description": "Telegram token",
+      "value": "123456789:ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    },
+    "BOT_LANG": {
+      "description": "Bot Language",
+      "value": "en"
+    }
+  },
+ "image": "heroku/python"
 }
