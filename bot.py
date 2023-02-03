@@ -4,8 +4,8 @@ import requests
 import os
 import json, youtube_dl
 #Config vars
-token = os.environ['TELEGRAM_TOKEN']
-
+#token = os.environ['TELEGRAM_TOKEN']
+TOKEN = os.getenv("BOT_TOKEN")
 #with open('app.json') as f:
  # token = json.load(f)
 #token=os.environ.get('TELEGRAM_TOKEN')
@@ -14,7 +14,7 @@ ydl = youtube_dl.YoutubeDL({'outtmpl': '%(id)s%(ext)s'})
 
 #initialise  bot
 #bot = telebot.TeleBot(token)
-bot = telebot.TeleBot(token)
+bot = telebot.TeleBot(TOKEN)
 x = bot.get_me()
 print(x)
 
