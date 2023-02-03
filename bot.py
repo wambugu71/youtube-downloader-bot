@@ -4,11 +4,11 @@ import requests
 import os
 import json, youtube_dl
 #Config vars
-#token = os.environ['TELEGRAM_TOKEN']
+token = os.environ['TELEGRAM_TOKEN']
 
 #with open('app.json') as f:
  # token = json.load(f)
-token=os.environ.get('TELEGRAM_TOKEN')
+#token=os.environ.get('TELEGRAM_TOKEN')
 #Intitialize YouTube downloader
 ydl = youtube_dl.YoutubeDL({'outtmpl': '%(id)s%(ext)s'})
 
