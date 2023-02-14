@@ -5,7 +5,7 @@ import os
 import json, youtube_dl
 #Config vars
 #token = os.environ['TELEGRAM_TOKEN']
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = "Put your bot token here from bot father"
 #with open('app.json') as f:
  # token = json.load(f)
 #token=os.environ.get('TELEGRAM_TOKEN')
